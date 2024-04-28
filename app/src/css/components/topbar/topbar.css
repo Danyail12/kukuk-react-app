@@ -1,0 +1,19 @@
+.oval-button {
+    border-radius: 50%; /* Use border-radius to make the button oval */
+    width: 100px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: white; /* Add your preferred background color */
+    color: #000; /* Set text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor for better user experience */
+  }
+
+  .margin-left-auto{
+    margin-left: auto;
+  }
+
+  .btn-md
+  {
+    width:120px; 
+    height:30px;
+  }

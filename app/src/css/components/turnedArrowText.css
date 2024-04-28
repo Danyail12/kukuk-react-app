@@ -1,0 +1,19 @@
+.border-bottom-80-percent {
+  border-bottom: 1px solid white;
+  border-image: linear-gradient(to right, #fff 80%, transparent 50%) 100% 1;
+}
+
+.padding{
+    padding-left: 20rem !important;
+}
+
+@media screen and (max-width:992px) {
+    .border-bottom-80-percent {
+        border-bottom: 1px solid white;
+        border-image: linear-gradient(to right, #fff 100%, transparent 50%) 100% 1;
+      }
+
+      .padding{
+        padding-left: 0rem !important;
+      }
+}

@@ -1,0 +1,237 @@
+.circle {
+  min-width: 23px;
+  width: 33%;
+  border-radius: 50%;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  max-width: 27.35px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+fs-7 {
+  font-size: 0.7rem !important;
+}
+marquee {
+  white-space: pre;
+}
+
+.accordion {
+  --mdb-accordion-bg: transparent !important;
+  --mdb-accordion-border-radius: 1.2rem !important;
+  --mdb-accordion-btn-icon: url("../assets/images/circle-diagonal-right-arrow.svg") !important;
+  --mdb-accordion-btn-active-icon: url("../assets/images/circle-diagonal-right-upper-arrow.svg") !important;
+  --mdb-accordion-btn-icon-transform: rotate(0) !important;
+  --mdb-accordion-transition: 0 !important;
+  --mdb-accordion-btn-icon-width: 2.25rem !important;
+}
+
+.accordion-button {
+  color: #e5e3dc !important;
+  font-family: "Neue Haas Grotesk Display Pro" !important;
+  font-size: 1.3rem !important;
+  font-weight: 100 !important;
+  text-transform: uppercase !important;
+  padding: 2% !important;
+}
+
+.accordion-body {
+  transition: 0 !important;
+  background-color: #fefefe !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fefefe !important;
+  color: black !important;
+}
+
+.css-1vyamtt-MuiStepLabel-labelContainer {
+  margin-left: 18.5%;
+}
+
+.MuiCollapse-vertical {
+  margin-left: 7%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../assets//images/background2.svg") center center no-repeat;
+  background-size: cover;
+}
+
+.img-setting {
+  margin-bottom: -10%;
+}
+
+@media screen and (max-width: 664px) {
+  .img-setting {
+    bottom: -8%;
+    left: 56%;
+  }
+}
+
+.margin-left-lg-25 {
+  margin-left: 38rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .margin-left-lg-25 {
+    margin-left: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .margin-left-lg-25 {
+    margin-top: 1rem !important;
+    margin-left: 0rem !important;
+  }
+}
+
+.text-color-Weiß-Akzent {
+  color: #e5e3dc;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ffam-Druk {
+  font-size: 2.5rem !important;
+  font-family: "calibri" !important;
+}
+
+.checklist-image {
+  filter: grayscale(100%) !important;
+  -webkit-filter: grayscale(100%) !important;
+}
+
+.MuiStepLabel-label.Mui-active {
+  color: white !important;
+}
+
+.MuiStepIcon-root {
+  color: #90ff79 !important;
+}
+
+.MuiButtonBase-root:hover {
+  background-color: #90ff79 !important;
+}
+
+.ffam-Druk-Cond {
+  font-size: 1.5rem !important;
+  font-family: "Druk Cond" !important;
+  letter-spacing: 2px;
+}
+
+.light-font {
+  font-weight: 500 !important;
+}
+
+.MuiStepLabel-label.Mui-completed {
+  color: #fefefe !important;
+  text-transform: uppercase !important;
+}
+
+.textChecklist:hover {
+  color: #fefefe !important;
+}
+
+.MuiStepLabel-label.Mui-active {
+  text-transform: uppercase !important;
+  font-size: 1.1rem !important;
+  font-family: "Neue Haas Grotesk Display Pro" !important;
+  font-weight: 600 !important;
+}
+
+.home-logo {
+  left: 36vw;
+  z-index: 9999;
+  text-align: center;
+}
+
+.fw-medium:hover {
+  background-color: #90ff79 !important;
+  color: black !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.home-head:hover {
+  color: #90ff79 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #90ff79 !important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: white !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #90ff79 !important;
+}
+
+.css-1f5ro5o-MuiButtonBase-root-MuiButton-root {
+  background-color: #90ff79 !important;
+}
+
+.css-18st3fs-MuiButtonBase-root-MuiButton-root {
+  color: #90ff79 !important;
+}
+
+.text-color-hellgrau {
+  color: #737373 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#diagonal-arrow-icon:hover {
+  transform: rotate(190deg);
+}
+
+#diagonal-arrow-icon {
+  transition: all 0.5s ease;
+}
+
+.font-3rem {
+  font-size: 3rem !important;
+}
+.font-4rem {
+  font-size: 4rem !important;
+}
+.font-5rem {
+  font-size: 5rem !important;
+}

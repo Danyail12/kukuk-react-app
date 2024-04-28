@@ -1,0 +1,14 @@
+
+$accordion-button-icon: url('../../assets/images/circle-diagonal-right-arrow.svg');
+$accordion-button-active-icon: url('../../assets/images/circle-diagonal-right-upper-arrow.svg');
+
+.accordion-header{
+    border-radius: 22px !important;
+    border: 1px solid #e5e3dc;
+  margin-bottom: 10px !important;
+}
+
+.accordion-button{
+    background: transparent !important;
+    color: white;
+}
